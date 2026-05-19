@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malyx Designs | Beyond Creativity</title>
+
+    <meta name="description" content="Malyx Designs - Premium graphic design and corporate branding solutions in Sri Lanka. We specialize in luxury logos, UI/UX layouts, and professional digital assets.">
+    <meta name="keywords" content="Malyx Designs, Malyx, Graphic Design Sri Lanka, Logo Design Hanwella, Branding Sri Lanka, Web Design, Creative Studio">
+    <meta name="author" content="Malyx Designs">
+    <meta name="robots" content="index, follow">
+
+    <meta name="google-site-verification" content="hD7R61iTxRXETPzIl340Z4GN-SS3TlWXEuWO0jB1OuI" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <i class="fas fa-palette logo-icon"></i>
+            <span class="brand-name">Malyx Designs</span>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 id="line1" class="typing-text"></h1>
+                <h1 id="line2" class="typing-text"></h1>
+                <p>Malyx Designs transforms your ideas into powerful visual masterpieces. From high-end logos to full-scale corporate branding, we build digital solutions that make your business stand out.</p>
+                <a href="#portfolio" class="btn-primary">Explore Portfolio</a>
+            </div>
+            <div class="hero-image">
+                <img src="image_7.png" alt="Malyx Designs Hero Workspace">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2 class="section-title">Our Creative Services</h2>
+        <p class="section-subtitle">We deliver premium design assets tailored for your business growth.</p>
+        <div class="web-image-wrapper">
+            <img src="image_8.png" alt="Malyx Designs Services Icons" class="clean-web-img">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="section-title">Why Choose Malyx Designs?</h2>
+        <p class="section-subtitle">Your strategic branding partner in professional graphic solutions.</p>
+        <div class="web-image-wrapper">
+            <img src="image_10.png" alt="Strategy, Creative Excellence and Consultation Cards" class="clean-web-img">
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2 class="section-title">Design Portfolio</h2>
+        <p class="section-subtitle">A glimpse of our recent visual masterpieces.</p>
+        
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="logos">Logos</button>
+            <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+            <button class="filter-btn" data-filter="print">Print</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="logos">
+                <img src="logo1.png" alt="Logo Design">
+            </div>
+            <div class="portfolio-item" data-category="ui-ux">
+                <img src="ui1.png" alt="UI/UX Design">
+            </div>
+            <div class="portfolio-item" data-category="print">
+                <img src="print1.png" alt="Print Design">
+            </div>
+            <div class="portfolio-item" data-category="logos">
+                <img src="logo2.jpg" alt="Logo Design 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <h2 class="section-title">Meet Our Creatives</h2>
+        <p class="section-subtitle">The minds behind the beautiful designs.</p>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-img-placeholder"><i class="fas fa-user-tie"></i></div>
+                <h3>Lakmal</h3>
+                <p>Lead Designer & Founder</p>
+            </div>
+            <div class="team-card">
+                <div class="team-img-placeholder"><i class="fas fa-user-nib"></i></div>
+                <h3>Creative Strategist</h3>
+                <p>Branding Expert</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2 class="section-title">Our Clients Say!</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <p class="client-text">"Malyx Designs completely transformed our brand identity. The logo design is modern, sharp, and perfectly represents our core business values. Highly recommended!"</p>
+                <div class="client-info">
+                    <h4>Amara Perera</h4>
+                    <span>Founder, Neo Startups</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <div class="contact-heading-wrapper">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Let's discuss your next big creative project.</p>
+        </div>
+        
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                <input type="hidden" name="access_key" value="8e00e8cb-0db4-4b0e-8850-7a188cf40bfc">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name">
+                    <span class="error-msg" id="nameError">Name is required</span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <span class="error-msg" id="emailError">Please enter a valid email</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp Number</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="Enter your WhatsApp number (e.g., 0771234567)">
+                    <span class="error-msg" id="whatsappError">Please enter a valid phone number</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">Your City</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city (e.g., Colombo, Hanwella)">
+                    <span class="error-msg" id="cityError">City is required</span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Describe your design requirements..."></textarea>
+                    <span class="error-msg" id="messageError">Message cannot be empty</span>
+                </div>
+                
+                <button type="submit" class="btn-primary form-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+                
+                <div class="success-box" id="successBox">
+                    <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
+                </div>
+            </form>
+        </div>
+
+        <div class="rating-container">
+            <h3>Rate Our Service</h3>
+            <div class="stars">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <p id="rating-text">Click a star to rate!</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <i class="fas fa-palette"></i>
+                    <span>Malyx Designs</span>
+                </div>
+                <p class="brand-desc">High-quality digital designs, professional branding solutions, and creative visual identities are now at your fingertips. Partner with us to elevate your business presentation.</p>
+                <ul class="contact-info-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Pahathgama, Hanwella, Sri Lanka</li>
+                    <li><i class="fas fa-phone-alt"></i> +94 76 381 0658</li>
+                    <li><i class="fas fa-envelope"></i> malyxdwsigns@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Useful Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#about">Why Choose Us</a></li>
+                    <li><a href="#portfolio">Design Portfolio</a></li>
+                    <li><a href="#team">Meet Our Team</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Logo Designing</a></li>
+                    <li><a href="#services">Corporate Branding</a></li>
+                    <li><a href="#services">UI/UX Layouts</a></li>
+                    <li><a href="#services">Print & Posters</a></li>
+                    <li><a href="#services">Digital Arts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Our Hubs</h3>
+                <ul class="footer-links hubs-list">
+                    <li><i class="fas fa-laptop-code"></i> Hanwella Head Office</li>
+                    <li><i class="fas fa-map-pin"></i> Colombo Workspace</li>
+                    <li><i class="fas fa-network-wired"></i> Remote Creative Studio</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="bottom-container">
+                <p class="copy-text">Malyx Designs &copy; 2026. Created by <strong>Expergen</strong>.</p>
+                <div class="design-badges">
+                    <span title="Adobe Photoshop"><i class="fab fa-adobe"></i> Ps</span>
+                    <span title="Adobe Illustrator"><i class="fab fa-adobe"></i> Ai</span>
+                    <span title="Premium Quality"><i class="fas fa-certificate"></i> 100% Quality</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a href="https://www.instagram.com/malyx.designs/" class="instagram-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram my-float"></i>
+    </a>
+    <a href="https://www.tiktok.com/@malyxdesigns?is_from_webapp=1&sender_device=pc" class="tiktok-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-tiktok my-float"></i>
+    </a>
+    <a href="https://www.facebook.com/share/1NKnHk1BSc/" class="facebook-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook-f my-float"></i>
+    </a>
+    <a href="https://wa.me/+94763810658?text=Hi%20Malyx%20Designs,%20I%20would%20like%20to%20get%20more%20details%20about%20your%20design%20services." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Enlarged Design">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
