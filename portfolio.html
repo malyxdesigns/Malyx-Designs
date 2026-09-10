@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malyx Designs | Creative Portfolio Showcase</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="portfolio-page">
+
+    <div class="portfolio-header">
+        <a href="index.html" class="back-home-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        <h1 class="showcase-title">Malyx Designs Studio</h1>
+        <p style="color: #888;">Explore our premium catalog of professional visual assets and branding projects.</p>
+    </div>
+
+    <div class="showcase-filters">
+        <button class="showcase-filter-btn active" data-filter="all">All Works</button>
+        <button class="showcase-filter-btn" data-filter="logos">Luxury Logos</button>
+        <button class="showcase-filter-btn" data-filter="wallpapers">Wallpapers</button>
+        <button class="showcase-filter-btn" data-filter="photos">Photography / Filters</button>
+        <button class="showcase-filter-btn" data-filter="uiux">UI/UX Layouts</button>
+         <button class="showcase-filter-btn" data-filter="post">Post</button>
+    </div>
+
+    <div class="showcase-grid" id="showcaseGrid">
+        
+        <div class="showcase-card" data-category="logos">
+            <div class="showcase-img-box">
+                <img src="photo/787135980_122111816355325491_9211224981433608645_n.jpg" alt="Malyx Premium Logo">
+            </div>
+            <div class="showcase-info">
+                <span>Logo Design</span>
+                <h3>Corporate Brand Identity</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="logos">
+            <div class="showcase-img-box">
+                <img src="photo/file_00000000029071fa9e95d58759742258_conversation_id=69070689-85d0-8320-b19b-11db7ee86626&message_id=bfe87834-9ac9-481e-932f-65ef57628991 (1).png" alt="Malyx Premium Logo">
+            </div>
+            <div class="showcase-info">
+                <span>Logo Design</span>
+                <h3>Corporate Brand Identity</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="post">
+            <div class="showcase-img-box">
+                <img src="photo/Untitled-1.jpg" alt="Malyx Premium Post">
+            </div>
+            <div class="showcase-info">
+                <span>Post Design</span>
+                <h3>Corporate Brand Identity</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="post">
+            <div class="showcase-img-box">
+                <img src="portfolio photo/cover photo.jpg" alt="Malyx Premium Post">
+            </div>
+            <div class="showcase-info">
+                <span>Post Design</span>
+                <h3>Corporate Brand Identity</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="wallpapers">
+            <div class="showcase-img-box">
+                <img src="photo/amoled_colorful_leaves_aae9da4a_2e3b_4034_90f3.png"Minimalist Red Desktop Wallpaper">
+            </div>
+            <div class="showcase-info">
+                <span>Wallpaper</span>
+                <h3>4K Minimalist Art Asset</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="photos">
+            <div class="showcase-img-box">
+                <img src="portfolio photo/pexels-photo-600114.jpeg" alt="Graded Corporate Photography">
+            </div>
+            <div class="showcase-info">
+                <span>Photography</span>
+                <h3>Cinematic Color Grading</h3>
+            </div>
+        </div>
+
+        <div class="showcase-card" data-category="uiux">
+            <div class="showcase-img-box">
+                <img src="photo/Screenshot 2026-05-20 155240.png" alt="Mobile UI Concept">
+            </div>
+            <div class="showcase-info">
+                <span>UI/UX Layout</span>
+                <h3>E-Commerce Interface Layout</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Enlarged Design">
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
